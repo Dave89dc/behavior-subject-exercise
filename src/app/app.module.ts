@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FirstComponent } from './first/first.component';
-import { ThirdComponent } from './third/third.component';
-import { SecondComponent } from './second/second.component';
-import { FourthComponent } from './fourth/fourth.component';
+import { FirstComponent } from './components/first/first.component';
+import { ThirdComponent } from './components/third/third.component';
+import { SecondComponent } from './components/second/second.component';
+import { FourthComponent } from './components/fourth/fourth.component';
 
 @NgModule({
   declarations: [
