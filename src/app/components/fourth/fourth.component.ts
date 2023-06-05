@@ -18,4 +18,24 @@ export class FourthComponent implements OnInit{
     });
   }
 
+  // Esempio a scuola: CONTROLLARE POI L'HTML
+
+  //isEven: boolean = true;
+
+  //contructor(...){}
+
+  //ngOnInit(): void{
+    //this.dataService.counterValue.subscribe({
+    //next: (value: number) => {
+      //const square = value**2;
+      //if(square % 2 === 0){
+        //this.isEven = true;
+      //} else{
+        //this.isEven = false;
+      //}
+    //}
+    //})
+    //error: err => console.log('Errore: ', err);
+  //}
+
 }
