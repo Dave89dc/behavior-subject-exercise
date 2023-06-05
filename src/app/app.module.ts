@@ -7,6 +7,7 @@ import { FirstComponent } from './components/first/first.component';
 import { ThirdComponent } from './components/third/third.component';
 import { SecondComponent } from './components/second/second.component';
 import { FourthComponent } from './components/fourth/fourth.component';
+import { SubjectComponent } from './components/subject/subject.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FourthComponent } from './components/fourth/fourth.component';
     FirstComponent,
     SecondComponent,
     ThirdComponent,
-    FourthComponent
+    FourthComponent,
+    SubjectComponent
   ],
   imports: [
     BrowserModule,

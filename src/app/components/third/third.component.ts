@@ -1,6 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
+import { DataServiceService } from 'src/app/services/data-service/data-service.service';
 //import { Subscription } from 'rxjs'; si fa l'import della subscription
-import { DataServiceService } from 'src/app/services/data-service.service';
 
 @Component({
   selector: 'app-third',
